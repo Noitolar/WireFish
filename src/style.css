@@ -1,0 +1,9 @@
+/* #app {
+  padding: 20px;
+} */
+
+html,
+body,
+#app {
+  height: 100%;
+}
