@@ -1,8 +1,8 @@
 import axios from "axios"
 
-const API = axios.create({
+const axiosRequest = axios.create({
     baseURL: "http://localhost:5000",
-    timeout: 10000
+    timeout: 2000
 })
 
-export default API
+export default axiosRequest

@@ -1,9 +1,12 @@
 <template>
-<Demo></Demo>
+<MainLayout></MainLayout>
+<!-- <Test></Test>-->
 </template>
 
 <script setup>
-import Demo from './components/Demo.vue';
+import MainLayout from './components/MainLayout.vue';
+import Test from "./components/Test.vue"
+// document.body.setAttribute('arco-theme', 'dark')
 </script>
 
 <style scoped>

@@ -1,1 +1,987 @@
-{"data":[{"Ethernet":{"dst":"f8:89:d2:8e:67:11","src":"74:25:8a:cc:2e:a0","type":"IPv4"},"IP":{"chksum":"0x881c","dst":"10.202.51.232","flags":"DF","frag":"0","id":"28955","ihl":"5","len":"40","proto":"tcp","src":"119.188.150.42","tos":"0x0","ttl":"53","version":"4"},"Padding":{"load":"'\\x00\\x00\\x00\\x00\\x00\\x00'"},"TCP":{"ack":"3465341148","chksum":"0xd013","dataofs":"5","dport":"7600","flags":"FA","options":"[]","reserved":"0","seq":"832338969","sport":"http","urgptr":"0","window":"4104"},"cap_time":"1680171365.764821","dst":"10.202.51.232:7600","protocol":"Ether / IP / TCP / Padding","src":"119.188.150.42:80","summary":"Ether / IP / TCP 119.188.150.42:http > 10.202.51.232:7600 FA / Padding"},{"Ethernet":{"dst":"74:25:8a:cc:2e:a0","src":"f8:89:d2:8e:67:11","type":"IPv4"},"IP":{"chksum":"0xeedb","dst":"119.188.150.42","flags":"DF","frag":"0","id":"48987","ihl":"5","len":"40","proto":"tcp","src":"10.202.51.232","tos":"0x0","ttl":"128","version":"4"},"TCP":{"ack":"832338970","chksum":"0xde16","dataofs":"5","dport":"http","flags":"A","options":"[]","reserved":"0","seq":"3465341148","sport":"7600","urgptr":"0","window":"517"},"cap_time":"1680171365.764859","dst":"119.188.150.42:80","protocol":"Ether / IP / TCP","src":"10.202.51.232:7600","summary":"Ether / IP / TCP 10.202.51.232:7600 > 119.188.150.42:http A"},{"Ethernet":{"dst":"33:33:ff:cc:2e:a0","src":"10:51:07:ce:d2:18","type":"IPv6"},"ICMPv6NeighborDiscoveryNeighborSolicitation":{"cksum":"0xa34f","code":"0","res":"0","tgt":"fe80::7625:8aff:fecc:2ea0","type":"NeighborSolicitation"},"ICMPv6NeighborDiscoveryOptionSourceLinkLayerAddress":{"len":"1","lladdr":"10:51:07:ce:d2:18","type":"1"},"IPv6":{"dst":"ff02::1:ffcc:2ea0","fl":"0","hlim":"255","nh":"ICMPv6","plen":"32","src":"fe80::3a0:147c:4e5a:2aa1","tc":"0","version":"6"},"cap_time":"1680171365.796041","dst":"ff02::1:ffcc:2ea0","protocol":"Ether / IPv6 / ICMPv6ND_NS / ICMPv6","src":"fe80::3a0:147c:4e5a:2aa1","summary":"Ether / IPv6 / ICMPv6ND_NS / ICMPv6 Neighbor Discovery Option - Source Link-Layer Address 10:51:07:ce:d2:18"},{"DNS":{"aa":"1","ad":"0","ancount":"2","arcount":"8","cd":"0","id":"0","nextname":"'appledeMacBook-Air.local.'","ns":"None","nscount":"0","opcode":"QUERY","port":"7000","priority":"0","qd":"None","qdcount":"0","qr":"1","ra":"0","rclass":"32769","rcode":"ok","rd":"0","rdata":"10.202.54.166","rdlen":"None","rrname":"'appledeMacBook-Air.local.'","target":"'appledeMacBook-Air.local.'","tc":"0","ttl":"120","type":"NSEC","typebitmaps":"['A','AAAA']","weight":"0","z":"0"},"Ethernet":{"dst":"01:00:5e:00:00:fb","src":"18:3e:ef:b7:f4:25","type":"IPv4"},"IP":{"chksum":"0xad28","dst":"224.0.0.251","flags":"","frag":"0","id":"59618","ihl":"5","len":"886","proto":"udp","src":"10.202.54.166","tos":"0x0","ttl":"255","version":"4"},"UDP":{"chksum":"0xcb3f","dport":"5353","len":"866","sport":"5353"},"cap_time":"1680171365.797645","dst":"224.0.0.251:5353","protocol":"Ether / IP / UDP / DNS","src":"10.202.54.166:5353","summary":"Ether / IP / UDP / DNS Ans \"b'apple\\xe7\\x9a\\x84MacBook Air._airplay._tcp.local.'\" "},{"DNS":{"aa":"1","ad":"0","ancount":"2","arcount":"8","cd":"0","id":"0","nextname":"'appledeMacBook-Air.local.'","ns":"None","nscount":"0","opcode":"QUERY","port":"7000","priority":"0","qd":"None","qdcount":"0","qr":"1","ra":"0","rclass":"32769","rcode":"ok","rd":"0","rdata":"10.202.54.166","rdlen":"None","rrname":"'appledeMacBook-Air.local.'","target":"'appledeMacBook-Air.local.'","tc":"0","ttl":"120","type":"NSEC","typebitmaps":"['A','AAAA']","weight":"0","z":"0"},"Ethernet":{"dst":"33:33:00:00:00:fb","src":"18:3e:ef:b7:f4:25","type":"IPv6"},"IPv6":{"dst":"ff02::fb","fl":"917504","hlim":"255","nh":"UDP","plen":"866","src":"fe80::1024:3494:5df9:38ec","tc":"0","version":"6"},"UDP":{"chksum":"0x138f","dport":"5353","len":"866","sport":"5353"},"cap_time":"1680171365.799051","dst":"ff02::fb:5353","protocol":"Ether / IPv6 / UDP / DNS","src":"fe80::1024:3494:5df9:38ec:5353","summary":"Ether / IPv6 / UDP / DNS Ans \"b'apple\\xe7\\x9a\\x84MacBook Air._airplay._tcp.local.'\" "},{"DNS":{"aa":"1","ad":"0","ancount":"1","arcount":"1","cd":"0","id":"0","nextname":"'Hb._companion-link._tcp.local.'","ns":"None","nscount":"0","opcode":"QUERY","qd":"None","qdcount":"0","qr":"1","ra":"0","rclass":"32769","rcode":"ok","rd":"0","rdata":"[b'rpBA=3C:D8:77:01:49:C0',b'rpAD=cf83a1033caf',b'rpFl=0x30040',b'rpHN=6577e514646c',b'rpMac=0',b'rpVr=420.5']","rdlen":"None","rrname":"'Hb._companion-link._tcp.local.'","tc":"0","ttl":"4500","type":"NSEC","typebitmaps":"['TXT','SRV']","z":"0"},"Ethernet":{"dst":"01:00:5e:00:00:fb","src":"de:62:95:eb:39:1a","type":"IPv4"},"IP":{"chksum":"0x4be4","dst":"224.0.0.251","flags":"","frag":"0","id":"25434","ihl":"5","len":"193","proto":"udp","src":"10.202.32.40","tos":"0x0","ttl":"255","version":"4"},"UDP":{"chksum":"0x30db","dport":"5353","len":"173","sport":"5353"},"cap_time":"1680171365.799738","dst":"224.0.0.251:5353","protocol":"Ether / IP / UDP / DNS","src":"10.202.32.40:5353","summary":"Ether / IP / UDP / DNS Ans \"[b'rpBA=3C:D8:77:01:49:C0', b'rpAD=cf83a1033caf', b'rpFl=0x30040', b'rpHN=6577e514646c', b'rpMac=0', b'rpVr=420.5']\" "},{"DNS":{"aa":"1","ad":"0","ancount":"1","arcount":"1","cd":"0","id":"0","nextname":"'Hb._companion-link._tcp.local.'","ns":"None","nscount":"0","opcode":"QUERY","qd":"None","qdcount":"0","qr":"1","ra":"0","rclass":"32769","rcode":"ok","rd":"0","rdata":"[b'rpBA=3C:D8:77:01:49:C0',b'rpAD=cf83a1033caf',b'rpFl=0x30040',b'rpHN=6577e514646c',b'rpMac=0',b'rpVr=420.5']","rdlen":"None","rrname":"'Hb._companion-link._tcp.local.'","tc":"0","ttl":"4500","type":"NSEC","typebitmaps":"['TXT','SRV']","z":"0"},"Ethernet":{"dst":"33:33:00:00:00:fb","src":"de:62:95:eb:39:1a","type":"IPv6"},"IPv6":{"dst":"ff02::fb","fl":"200448","hlim":"255","nh":"UDP","plen":"173","src":"fe80::c97:347f:b032:518b","tc":"0","version":"6"},"UDP":{"chksum":"0xfb75","dport":"5353","len":"173","sport":"5353"},"cap_time":"1680171365.800247","dst":"ff02::fb:5353","protocol":"Ether / IPv6 / UDP / DNS","src":"fe80::c97:347f:b032:518b:5353","summary":"Ether / IPv6 / UDP / DNS Ans \"[b'rpBA=3C:D8:77:01:49:C0', b'rpAD=cf83a1033caf', b'rpFl=0x30040', b'rpHN=6577e514646c', b'rpMac=0', b'rpVr=420.5']\" "},{"DNS":{"aa":"1","ad":"0","ancount":"3","arcount":"1","cd":"0","id":"0","nextname":"\"Fiona'sMacBookPro\\xf0\\x9f\\x8d\\xac._companion-link._tcp.local.\"","ns":"None","nscount":"0","opcode":"QUERY","qd":"None","qdcount":"0","qr":"1","ra":"0","rclass":"32769","rcode":"ok","rd":"0","rdata":"\"Fiona'sMacBookPro\\xf0\\x9f\\x8d\\xac._companion-link._tcp.local.\"","rdlen":"None","rrname":"\"Fiona'sMacBookPro\\xf0\\x9f\\x8d\\xac._companion-link._tcp.local.\"","tc":"0","ttl":"4500","type":"NSEC","typebitmaps":"['TXT','SRV']","z":"0"},"Ethernet":{"dst":"01:00:5e:00:00:fb","src":"88:66:5a:3c:83:34","type":"IPv4"},"IP":{"chksum":"0x8398","dst":"224.0.0.251","flags":"","frag":"0","id":"10595","ihl":"5","len":"364","proto":"udp","src":"10.202.33.192","tos":"0x0","ttl":"255","version":"4"},"UDP":{"chksum":"0xefc3","dport":"5353","len":"344","sport":"5353"},"cap_time":"1680171365.801017","dst":"224.0.0.251:5353","protocol":"Ether / IP / UDP / DNS","src":"10.202.33.192:5353","summary":"Ether / IP / UDP / DNS Ans \"[b'model=MacBookPro16,2', b'osxvers=21', b'ecolor=157,157,160']\" "},{"DNS":{"aa":"1","ad":"0","ancount":"3","arcount":"1","cd":"0","id":"0","nextname":"\"Fiona'sMacBookPro\\xf0\\x9f\\x8d\\xac._companion-link._tcp.local.\"","ns":"None","nscount":"0","opcode":"QUERY","qd":"None","qdcount":"0","qr":"1","ra":"0","rclass":"32769","rcode":"ok","rd":"0","rdata":"\"Fiona'sMacBookPro\\xf0\\x9f\\x8d\\xac._companion-link._tcp.local.\"","rdlen":"None","rrname":"\"Fiona'sMacBookPro\\xf0\\x9f\\x8d\\xac._companion-link._tcp.local.\"","tc":"0","ttl":"4500","type":"NSEC","typebitmaps":"['TXT','SRV']","z":"0"},"Ethernet":{"dst":"33:33:00:00:00:fb","src":"88:66:5a:3c:83:34","type":"IPv6"},"IPv6":{"dst":"ff02::fb","fl":"264448","hlim":"255","nh":"UDP","plen":"344","src":"fe80::146c:e767:2cd4:d915","tc":"0","version":"6"},"UDP":{"chksum":"0xfd0c","dport":"5353","len":"344","sport":"5353"},"cap_time":"1680171365.801729","dst":"ff02::fb:5353","protocol":"Ether / IPv6 / UDP / DNS","src":"fe80::146c:e767:2cd4:d915:5353","summary":"Ether / IPv6 / UDP / DNS Ans \"[b'model=MacBookPro16,2', b'osxvers=21', b'ecolor=157,157,160']\" "},{"ARP":{"hwdst":"00:00:00:00:00:00","hwlen":"6","hwsrc":"f2:b8:70:52:33:0f","hwtype":"0x1","op":"who-has","pdst":"10.202.55.25","plen":"4","psrc":"10.202.55.221","ptype":"IPv4"},"Ethernet":{"dst":"ff:ff:ff:ff:ff:ff","src":"f2:b8:70:52:33:0f","type":"ARP"},"Padding":{"load":"'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'"},"cap_time":"1680171365.801730","dst":"ff:ff:ff:ff:ff:ff","protocol":"Ether / ARP / Padding","src":"f2:b8:70:52:33:0f","summary":"Ether / ARP who has 10.202.55.25 says 10.202.55.221 / Padding"},{"Ethernet":{"dst":"33:33:00:00:00:16","src":"50:1f:c6:c6:2e:04","type":"IPv6"},"IPv6":{"dst":"ff02::16","fl":"0","hlim":"1","nh":"Hop-by-HopOptionHeader","plen":"36","src":"fe80::4fc:d403:2370:b15a","tc":"0","version":"6"},"IPv6ExtensionHeaderHopbyHopOptionsHeader":{"autopad":"On","len":"0","nh":"ICMPv6","optdata":"''","optlen":"2","otype":"RouterAlert[00:skip,0:Don'tchangeen-route]","value":"DatagramcontainsaMLDmessage"},"MLDv2MulticastListenerReport":{"auxdata":"''","auxdata_len":"0","cksum":"0xc145","dst":"ff02::fb","records_number":"1","res":"0","reserved":"0","rtype":"4","sources":"[]","sources_number":"0","type":"MLDReportVersion2"},"cap_time":"1680171365.802289","dst":"ff02::16","protocol":"Ether / fe80::4fc:d403:2370:b15a / IPv6ExtHdrHopByHop / ICMPv6MLReport2","src":"fe80::4fc:d403:2370:b15a","summary":"Ether / fe80::4fc:d403:2370:b15a > ff02::16 (0) / IPv6ExtHdrHopByHop / ICMPv6MLReport2"},{"DNS":{"aa":"1","ad":"0","ancount":"2","arcount":"8","cd":"0","extrcode":"0","id":"0","nextname":"'daliguzhandoujinhua.local.'","ns":"None","nscount":"0","opcode":"QUERY","optcode":"Reserved","optdata":"'\\x00&nyu\"vm\\xde\\xbeL\\xfb\\xf0e'","optlen":"14","port":"49167","priority":"0","qd":"None","qdcount":"0","qr":"1","ra":"0","rclass":"1440","rcode":"ok","rd":"0","rdata":"10.202.51.124","rdlen":"None","rrname":"'.'","target":"'daliguzhandoujinhua.local.'","tc":"0","ttl":"120","type":"OPT","typebitmaps":"['A','AAAA']","version":"0","weight":"0","z":"4500"},"Ethernet":{"dst":"01:00:5e:00:00:fb","src":"de:be:4c:fb:f0:65","type":"IPv4"},"IP":{"chksum":"0xe853","dst":"224.0.0.251","flags":"","frag":"0","id":"45767","ihl":"5","len":"400","proto":"udp","src":"10.202.51.124","tos":"0x0","ttl":"255","version":"4"},"UDP":{"chksum":"0xf225","dport":"5353","len":"380","sport":"5353"},"cap_time":"1680171365.803038","dst":"224.0.0.251:5353","protocol":"Ether / IP / UDP / DNS","src":"10.202.51.124:5353","summary":"Ether / IP / UDP / DNS Ans \"[b'model=J181AP']\" "},{"DNS":{"aa":"1","ad":"0","ancount":"2","arcount":"8","cd":"0","extrcode":"0","id":"0","nextname":"'daliguzhandoujinhua.local.'","ns":"None","nscount":"0","opcode":"QUERY","optcode":"Reserved","optdata":"'\\x00&nyu\"vm\\xde\\xbeL\\xfb\\xf0e'","optlen":"14","port":"49167","priority":"0","qd":"None","qdcount":"0","qr":"1","ra":"0","rclass":"1440","rcode":"ok","rd":"0","rdata":"10.202.51.124","rdlen":"None","rrname":"'.'","target":"'daliguzhandoujinhua.local.'","tc":"0","ttl":"120","type":"OPT","typebitmaps":"['A','AAAA']","version":"0","weight":"0","z":"4500"},"Ethernet":{"dst":"33:33:00:00:00:fb","src":"de:be:4c:fb:f0:65","type":"IPv6"},"IPv6":{"dst":"ff02::fb","fl":"920832","hlim":"255","nh":"UDP","plen":"380","src":"fe80::6a:4fbe:843:5f37","tc":"0","version":"6"},"UDP":{"chksum":"0x5b46","dport":"5353","len":"380","sport":"5353"},"cap_time":"1680171365.803801","dst":"ff02::fb:5353","protocol":"Ether / IPv6 / UDP / DNS","src":"fe80::6a:4fbe:843:5f37:5353","summary":"Ether / IPv6 / UDP / DNS Ans \"[b'model=J181AP']\" "},{"DHCP6ClientIdentifierOption":{"hwtype":"Ethernet(10Mb)","lladdr":"6e:51:6d:a1:1c:7b","optcode":"CLIENTID","optlen":"10","type":"Link-layerAddress"},"DHCP6ElapsedTimeOption":{"elapsedtime":"2.84sec","optcode":"ELAPSED_TIME","optlen":"2"},"DHCP6IdentityAssociationforNontemporaryAddressesOption":{"T1":"0","T2":"0","iaid":"0x0","optcode":"IA_NA","optlen":"12"},"DHCP6OptionRequestOption":{"optcode":"ORO","optlen":"6","reqopts":"[DNSRecursiveNameServerOption,DomainSearchListoption,103]"},"DHCPv6SolicitMessage":{"msgtype":"SOLICIT","trid":"0xfe27fd"},"Ethernet":{"dst":"33:33:00:01:00:02","src":"6e:51:6d:a1:1c:7b","type":"IPv6"},"IPv6":{"dst":"ff02::1:2","fl":"461056","hlim":"1","nh":"UDP","plen":"58","src":"fe80::1c09:dd0e:313f:d7f5","tc":"0","version":"6"},"UDP":{"chksum":"0xd712","dport":"dhcpv6_server","len":"58","sport":"dhcpv6_client"},"cap_time":"1680171365.804131","dst":"ff02::1:2:547","protocol":"Ether / IPv6 / UDP / DHCP6_Solicit / DHCP6OptClientId / DHCP6OptOptReq / DHCP6OptElapsedTime / DHCP6OptIA_NA","src":"fe80::1c09:dd0e:313f:d7f5:546","summary":"Ether / IPv6 / UDP fe80::1c09:dd0e:313f:d7f5:dhcpv6_client > ff02::1:2:dhcpv6_server / DHCP6_Solicit / DHCP6OptClientId / DHCP6OptOptReq / DHCP6OptElapsedTime / DHCP6OptIA_NA"},{"ARP":{"hwdst":"00:00:00:00:00:00","hwlen":"6","hwsrc":"2c:a0:42:f8:51:6e","hwtype":"0x1","op":"who-has","pdst":"10.202.63.254","plen":"4","psrc":"10.202.41.207","ptype":"IPv4"},"Ethernet":{"dst":"ff:ff:ff:ff:ff:ff","src":"2c:a0:42:f8:51:6e","type":"ARP"},"cap_time":"1680171365.804131","dst":"ff:ff:ff:ff:ff:ff","protocol":"Ether / ARP","src":"2c:a0:42:f8:51:6e","summary":"Ether / ARP who has 10.202.63.254 says 10.202.41.207"},{"DNS":{"aa":"1","ad":"0","ancount":"2","ar":"None","arcount":"0","cd":"0","id":"0","ns":"None","nscount":"0","opcode":"QUERY","qd":"None","qdcount":"0","qr":"1","ra":"0","rclass":"IN","rcode":"ok","rd":"0","rdata":"'ZzzsHuqiaAo\\xe7\\x9a\\x84iPad._companion-link._tcp.local.'","rdlen":"None","rrname":"'_companion-link._tcp.local.'","tc":"0","ttl":"4500","type":"PTR","z":"0"},"Ethernet":{"dst":"01:00:5e:00:00:fb","src":"4e:be:52:2d:8a:94","type":"IPv4"},"IP":{"chksum":"0x1c78","dst":"224.0.0.251","flags":"","frag":"0","id":"30958","ihl":"5","len":"156","proto":"udp","src":"10.202.58.37","tos":"0x0","ttl":"255","version":"4"},"UDP":{"chksum":"0xef67","dport":"5353","len":"136","sport":"5353"},"cap_time":"1680171365.804780","dst":"224.0.0.251:5353","protocol":"Ether / IP / UDP / DNS","src":"10.202.58.37:5353","summary":"Ether / IP / UDP / DNS Ans \"[b'model=J417AP']\" "},{"DNS":{"aa":"1","ad":"0","ancount":"2","ar":"None","arcount":"0","cd":"0","id":"0","ns":"None","nscount":"0","opcode":"QUERY","qd":"None","qdcount":"0","qr":"1","ra":"0","rclass":"IN","rcode":"ok","rd":"0","rdata":"'ZzzsHuqiaAo\\xe7\\x9a\\x84iPad._companion-link._tcp.local.'","rdlen":"None","rrname":"'_companion-link._tcp.local.'","tc":"0","ttl":"4500","type":"PTR","z":"0"},"Ethernet":{"dst":"33:33:00:00:00:fb","src":"4e:be:52:2d:8a:94","type":"IPv6"},"IPv6":{"dst":"ff02::fb","fl":"134656","hlim":"255","nh":"UDP","plen":"136","src":"fe80::4d1:6873:8e2f:e9f2","tc":"0","version":"6"},"UDP":{"chksum":"0x316d","dport":"5353","len":"136","sport":"5353"},"cap_time":"1680171365.805236","dst":"ff02::fb:5353","protocol":"Ether / IPv6 / UDP / DNS","src":"fe80::4d1:6873:8e2f:e9f2:5353","summary":"Ether / IPv6 / UDP / DNS Ans \"[b'model=J417AP']\" "},{"Ethernet":{"dst":"33:33:ff:cc:2e:a0","src":"12:ef:75:00:85:cc","type":"IPv6"},"ICMPv6NeighborDiscoveryNeighborSolicitation":{"cksum":"0x7d8c","code":"0","res":"0","tgt":"fe80::7625:8aff:fecc:2ea0","type":"NeighborSolicitation"},"ICMPv6NeighborDiscoveryOptionSourceLinkLayerAddress":{"len":"1","lladdr":"12:ef:75:00:85:cc","type":"1"},"IPv6":{"dst":"ff02::1:ffcc:2ea0","fl":"0","hlim":"255","nh":"ICMPv6","plen":"32","src":"2400:dd01:103a:4032:7c68:c7ee:7be9:8028","tc":"0","version":"6"},"cap_time":"1680171365.805237","dst":"ff02::1:ffcc:2ea0","protocol":"Ether / IPv6 / ICMPv6ND_NS / ICMPv6","src":"2400:dd01:103a:4032:7c68:c7ee:7be9:8028","summary":"Ether / IPv6 / ICMPv6ND_NS / ICMPv6 Neighbor Discovery Option - Source Link-Layer Address 12:ef:75:00:85:cc"},{"ARP":{"hwdst":"00:00:00:00:00:00","hwlen":"6","hwsrc":"10:6f:d9:66:94:e9","hwtype":"0x1","op":"who-has","pdst":"10.202.191.254","plen":"4","psrc":"169.254.231.168","ptype":"IPv4"},"Ethernet":{"dst":"ff:ff:ff:ff:ff:ff","src":"10:6f:d9:66:94:e9","type":"ARP"},"Padding":{"load":"'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'"},"cap_time":"1680171365.805703","dst":"ff:ff:ff:ff:ff:ff","protocol":"Ether / ARP / Padding","src":"10:6f:d9:66:94:e9","summary":"Ether / ARP who has 10.202.191.254 says 169.254.231.168 / Padding"},{"DNS":{"aa":"1","ad":"0","ancount":"1","arcount":"2","cd":"0","extrcode":"0","id":"0","nextname":"'Guofengwu._companion-link._tcp.local.'","ns":"None","nscount":"0","opcode":"QUERY","optcode":"Reserved","optdata":"'\\x00\\xe56\\x96\\x9f\\xaeO\\x00\\xb219\\x9a*H'","optlen":"14","qd":"None","qdcount":"0","qr":"1","ra":"0","rclass":"1440","rcode":"ok","rd":"0","rdata":"[b'rpMac=0',b'rpHN=1a0ffcecc189',b'rpFl=0x30040',b'rpHA=7d9e1c14bb7c',b'rpVr=360.4',b'rpAD=862fa85fed19',b'rpHI=0e02e1b09053',b'rpBA=7A:C6:B3:09:C9:14']","rdlen":"None","rrname":"'.'","tc":"0","ttl":"4500","type":"OPT","typebitmaps":"['TXT','SRV']","version":"0","z":"4500"},"Ethernet":{"dst":"01:00:5e:00:00:fb","src":"b2:31:39:9a:2a:48","type":"IPv4"},"IP":{"chksum":"0x2ff5","dst":"224.0.0.251","flags":"","frag":"0","id":"27362","ihl":"5","len":"266","proto":"udp","src":"10.202.52.70","tos":"0x0","ttl":"255","version":"4"},"UDP":{"chksum":"0xaa4c","dport":"5353","len":"246","sport":"5353"},"cap_time":"1680171365.806395","dst":"224.0.0.251:5353","protocol":"Ether / IP / UDP / DNS","src":"10.202.52.70:5353","summary":"Ether / IP / UDP / DNS Ans \"[b'rpMac=0', b'rpHN=1a0ffcecc189', b'rpFl=0x30040', b'rpHA=7d9e1c14bb7c', b'rpVr=360.4', b'rpAD=862fa85fed19', b'rpHI=0e02e1b09053', b'rpBA=7A:C6:B3:09:C9:14']\" "}],"result":"[o] updated."}
+{
+  "data": [
+    {
+      "Ethernet": {
+        "dst": "f8:89:d2:8e:67:11",
+        "src": "74:25:8a:cc:2e:a0",
+        "type": "IPv4"
+      },
+      "IP": {
+        "chksum": "0x881c",
+        "dst": "10.202.51.232",
+        "flags": "DF",
+        "frag": "0",
+        "id": "28955",
+        "ihl": "5",
+        "len": "40",
+        "proto": "tcp",
+        "src": "119.188.150.42",
+        "tos": "0x0",
+        "ttl": "53",
+        "version": "4"
+      },
+      "Padding": {
+        "load": "'\\x00\\x00\\x00\\x00\\x00\\x00'"
+      },
+      "TCP": {
+        "ack": "3465341148",
+        "chksum": "0xd013",
+        "dataofs": "5",
+        "dport": "7600",
+        "flags": "FA",
+        "options": "[]",
+        "reserved": "0",
+        "seq": "832338969",
+        "sport": "http",
+        "urgptr": "0",
+        "window": "4104"
+      },
+      "cap_time": "1680171365.764821",
+      "dst": "10.202.51.232:7600",
+      "protocol": "Ether / IP / TCP / Padding",
+      "src": "119.188.150.42:80",
+      "summary": "Ether / IP / TCP 119.188.150.42:http > 10.202.51.232:7600 FA / Padding"
+    },
+    {
+      "Ethernet": {
+        "dst": "74:25:8a:cc:2e:a0",
+        "src": "f8:89:d2:8e:67:11",
+        "type": "IPv4"
+      },
+      "IP": {
+        "chksum": "0xeedb",
+        "dst": "119.188.150.42",
+        "flags": "DF",
+        "frag": "0",
+        "id": "48987",
+        "ihl": "5",
+        "len": "40",
+        "proto": "tcp",
+        "src": "10.202.51.232",
+        "tos": "0x0",
+        "ttl": "128",
+        "version": "4"
+      },
+      "TCP": {
+        "ack": "832338970",
+        "chksum": "0xde16",
+        "dataofs": "5",
+        "dport": "http",
+        "flags": "A",
+        "options": "[]",
+        "reserved": "0",
+        "seq": "3465341148",
+        "sport": "7600",
+        "urgptr": "0",
+        "window": "517"
+      },
+      "cap_time": "1680171365.764859",
+      "dst": "119.188.150.42:80",
+      "protocol": "Ether / IP / TCP",
+      "src": "10.202.51.232:7600",
+      "summary": "Ether / IP / TCP 10.202.51.232:7600 > 119.188.150.42:http A"
+    },
+    {
+      "Ethernet": {
+        "dst": "33:33:ff:cc:2e:a0",
+        "src": "10:51:07:ce:d2:18",
+        "type": "IPv6"
+      },
+      "ICMPv6NeighborDiscoveryNeighborSolicitation": {
+        "cksum": "0xa34f",
+        "code": "0",
+        "res": "0",
+        "tgt": "fe80::7625:8aff:fecc:2ea0",
+        "type": "NeighborSolicitation"
+      },
+      "ICMPv6NeighborDiscoveryOptionSourceLinkLayerAddress": {
+        "len": "1",
+        "lladdr": "10:51:07:ce:d2:18",
+        "type": "1"
+      },
+      "IPv6": {
+        "dst": "ff02::1:ffcc:2ea0",
+        "fl": "0",
+        "hlim": "255",
+        "nh": "ICMPv6",
+        "plen": "32",
+        "src": "fe80::3a0:147c:4e5a:2aa1",
+        "tc": "0",
+        "version": "6"
+      },
+      "cap_time": "1680171365.796041",
+      "dst": "ff02::1:ffcc:2ea0",
+      "protocol": "Ether / IPv6 / ICMPv6ND_NS / ICMPv6",
+      "src": "fe80::3a0:147c:4e5a:2aa1",
+      "summary": "Ether / IPv6 / ICMPv6ND_NS / ICMPv6 Neighbor Discovery Option - Source Link-Layer Address 10:51:07:ce:d2:18"
+    },
+    {
+      "DNS": {
+        "aa": "1",
+        "ad": "0",
+        "ancount": "2",
+        "arcount": "8",
+        "cd": "0",
+        "id": "0",
+        "nextname": "'appledeMacBook-Air.local.'",
+        "ns": "None",
+        "nscount": "0",
+        "opcode": "QUERY",
+        "port": "7000",
+        "priority": "0",
+        "qd": "None",
+        "qdcount": "0",
+        "qr": "1",
+        "ra": "0",
+        "rclass": "32769",
+        "rcode": "ok",
+        "rd": "0",
+        "rdata": "10.202.54.166",
+        "rdlen": "None",
+        "rrname": "'appledeMacBook-Air.local.'",
+        "target": "'appledeMacBook-Air.local.'",
+        "tc": "0",
+        "ttl": "120",
+        "type": "NSEC",
+        "typebitmaps": "['A','AAAA']",
+        "weight": "0",
+        "z": "0"
+      },
+      "Ethernet": {
+        "dst": "01:00:5e:00:00:fb",
+        "src": "18:3e:ef:b7:f4:25",
+        "type": "IPv4"
+      },
+      "IP": {
+        "chksum": "0xad28",
+        "dst": "224.0.0.251",
+        "flags": "",
+        "frag": "0",
+        "id": "59618",
+        "ihl": "5",
+        "len": "886",
+        "proto": "udp",
+        "src": "10.202.54.166",
+        "tos": "0x0",
+        "ttl": "255",
+        "version": "4"
+      },
+      "UDP": {
+        "chksum": "0xcb3f",
+        "dport": "5353",
+        "len": "866",
+        "sport": "5353"
+      },
+      "cap_time": "1680171365.797645",
+      "dst": "224.0.0.251:5353",
+      "protocol": "Ether / IP / UDP / DNS",
+      "src": "10.202.54.166:5353",
+      "summary": "Ether / IP / UDP / DNS Ans \"b'apple\\xe7\\x9a\\x84MacBook Air._airplay._tcp.local.'\" "
+    },
+    {
+      "DNS": {
+        "aa": "1",
+        "ad": "0",
+        "ancount": "2",
+        "arcount": "8",
+        "cd": "0",
+        "id": "0",
+        "nextname": "'appledeMacBook-Air.local.'",
+        "ns": "None",
+        "nscount": "0",
+        "opcode": "QUERY",
+        "port": "7000",
+        "priority": "0",
+        "qd": "None",
+        "qdcount": "0",
+        "qr": "1",
+        "ra": "0",
+        "rclass": "32769",
+        "rcode": "ok",
+        "rd": "0",
+        "rdata": "10.202.54.166",
+        "rdlen": "None",
+        "rrname": "'appledeMacBook-Air.local.'",
+        "target": "'appledeMacBook-Air.local.'",
+        "tc": "0",
+        "ttl": "120",
+        "type": "NSEC",
+        "typebitmaps": "['A','AAAA']",
+        "weight": "0",
+        "z": "0"
+      },
+      "Ethernet": {
+        "dst": "33:33:00:00:00:fb",
+        "src": "18:3e:ef:b7:f4:25",
+        "type": "IPv6"
+      },
+      "IPv6": {
+        "dst": "ff02::fb",
+        "fl": "917504",
+        "hlim": "255",
+        "nh": "UDP",
+        "plen": "866",
+        "src": "fe80::1024:3494:5df9:38ec",
+        "tc": "0",
+        "version": "6"
+      },
+      "UDP": {
+        "chksum": "0x138f",
+        "dport": "5353",
+        "len": "866",
+        "sport": "5353"
+      },
+      "cap_time": "1680171365.799051",
+      "dst": "ff02::fb:5353",
+      "protocol": "Ether / IPv6 / UDP / DNS",
+      "src": "fe80::1024:3494:5df9:38ec:5353",
+      "summary": "Ether / IPv6 / UDP / DNS Ans \"b'apple\\xe7\\x9a\\x84MacBook Air._airplay._tcp.local.'\" "
+    },
+    {
+      "DNS": {
+        "aa": "1",
+        "ad": "0",
+        "ancount": "1",
+        "arcount": "1",
+        "cd": "0",
+        "id": "0",
+        "nextname": "'Hb._companion-link._tcp.local.'",
+        "ns": "None",
+        "nscount": "0",
+        "opcode": "QUERY",
+        "qd": "None",
+        "qdcount": "0",
+        "qr": "1",
+        "ra": "0",
+        "rclass": "32769",
+        "rcode": "ok",
+        "rd": "0",
+        "rdata": "[b'rpBA=3C:D8:77:01:49:C0',b'rpAD=cf83a1033caf',b'rpFl=0x30040',b'rpHN=6577e514646c',b'rpMac=0',b'rpVr=420.5']",
+        "rdlen": "None",
+        "rrname": "'Hb._companion-link._tcp.local.'",
+        "tc": "0",
+        "ttl": "4500",
+        "type": "NSEC",
+        "typebitmaps": "['TXT','SRV']",
+        "z": "0"
+      },
+      "Ethernet": {
+        "dst": "01:00:5e:00:00:fb",
+        "src": "de:62:95:eb:39:1a",
+        "type": "IPv4"
+      },
+      "IP": {
+        "chksum": "0x4be4",
+        "dst": "224.0.0.251",
+        "flags": "",
+        "frag": "0",
+        "id": "25434",
+        "ihl": "5",
+        "len": "193",
+        "proto": "udp",
+        "src": "10.202.32.40",
+        "tos": "0x0",
+        "ttl": "255",
+        "version": "4"
+      },
+      "UDP": {
+        "chksum": "0x30db",
+        "dport": "5353",
+        "len": "173",
+        "sport": "5353"
+      },
+      "cap_time": "1680171365.799738",
+      "dst": "224.0.0.251:5353",
+      "protocol": "Ether / IP / UDP / DNS",
+      "src": "10.202.32.40:5353",
+      "summary": "Ether / IP / UDP / DNS Ans \"[b'rpBA=3C:D8:77:01:49:C0', b'rpAD=cf83a1033caf', b'rpFl=0x30040', b'rpHN=6577e514646c', b'rpMac=0', b'rpVr=420.5']\" "
+    },
+    {
+      "DNS": {
+        "aa": "1",
+        "ad": "0",
+        "ancount": "1",
+        "arcount": "1",
+        "cd": "0",
+        "id": "0",
+        "nextname": "'Hb._companion-link._tcp.local.'",
+        "ns": "None",
+        "nscount": "0",
+        "opcode": "QUERY",
+        "qd": "None",
+        "qdcount": "0",
+        "qr": "1",
+        "ra": "0",
+        "rclass": "32769",
+        "rcode": "ok",
+        "rd": "0",
+        "rdata": "[b'rpBA=3C:D8:77:01:49:C0',b'rpAD=cf83a1033caf',b'rpFl=0x30040',b'rpHN=6577e514646c',b'rpMac=0',b'rpVr=420.5']",
+        "rdlen": "None",
+        "rrname": "'Hb._companion-link._tcp.local.'",
+        "tc": "0",
+        "ttl": "4500",
+        "type": "NSEC",
+        "typebitmaps": "['TXT','SRV']",
+        "z": "0"
+      },
+      "Ethernet": {
+        "dst": "33:33:00:00:00:fb",
+        "src": "de:62:95:eb:39:1a",
+        "type": "IPv6"
+      },
+      "IPv6": {
+        "dst": "ff02::fb",
+        "fl": "200448",
+        "hlim": "255",
+        "nh": "UDP",
+        "plen": "173",
+        "src": "fe80::c97:347f:b032:518b",
+        "tc": "0",
+        "version": "6"
+      },
+      "UDP": {
+        "chksum": "0xfb75",
+        "dport": "5353",
+        "len": "173",
+        "sport": "5353"
+      },
+      "cap_time": "1680171365.800247",
+      "dst": "ff02::fb:5353",
+      "protocol": "Ether / IPv6 / UDP / DNS",
+      "src": "fe80::c97:347f:b032:518b:5353",
+      "summary": "Ether / IPv6 / UDP / DNS Ans \"[b'rpBA=3C:D8:77:01:49:C0', b'rpAD=cf83a1033caf', b'rpFl=0x30040', b'rpHN=6577e514646c', b'rpMac=0', b'rpVr=420.5']\" "
+    },
+    {
+      "DNS": {
+        "aa": "1",
+        "ad": "0",
+        "ancount": "3",
+        "arcount": "1",
+        "cd": "0",
+        "id": "0",
+        "nextname": "\"Fiona'sMacBookPro\\xf0\\x9f\\x8d\\xac._companion-link._tcp.local.\"",
+        "ns": "None",
+        "nscount": "0",
+        "opcode": "QUERY",
+        "qd": "None",
+        "qdcount": "0",
+        "qr": "1",
+        "ra": "0",
+        "rclass": "32769",
+        "rcode": "ok",
+        "rd": "0",
+        "rdata": "\"Fiona'sMacBookPro\\xf0\\x9f\\x8d\\xac._companion-link._tcp.local.\"",
+        "rdlen": "None",
+        "rrname": "\"Fiona'sMacBookPro\\xf0\\x9f\\x8d\\xac._companion-link._tcp.local.\"",
+        "tc": "0",
+        "ttl": "4500",
+        "type": "NSEC",
+        "typebitmaps": "['TXT','SRV']",
+        "z": "0"
+      },
+      "Ethernet": {
+        "dst": "01:00:5e:00:00:fb",
+        "src": "88:66:5a:3c:83:34",
+        "type": "IPv4"
+      },
+      "IP": {
+        "chksum": "0x8398",
+        "dst": "224.0.0.251",
+        "flags": "",
+        "frag": "0",
+        "id": "10595",
+        "ihl": "5",
+        "len": "364",
+        "proto": "udp",
+        "src": "10.202.33.192",
+        "tos": "0x0",
+        "ttl": "255",
+        "version": "4"
+      },
+      "UDP": {
+        "chksum": "0xefc3",
+        "dport": "5353",
+        "len": "344",
+        "sport": "5353"
+      },
+      "cap_time": "1680171365.801017",
+      "dst": "224.0.0.251:5353",
+      "protocol": "Ether / IP / UDP / DNS",
+      "src": "10.202.33.192:5353",
+      "summary": "Ether / IP / UDP / DNS Ans \"[b'model=MacBookPro16,2', b'osxvers=21', b'ecolor=157,157,160']\" "
+    },
+    {
+      "DNS": {
+        "aa": "1",
+        "ad": "0",
+        "ancount": "3",
+        "arcount": "1",
+        "cd": "0",
+        "id": "0",
+        "nextname": "\"Fiona'sMacBookPro\\xf0\\x9f\\x8d\\xac._companion-link._tcp.local.\"",
+        "ns": "None",
+        "nscount": "0",
+        "opcode": "QUERY",
+        "qd": "None",
+        "qdcount": "0",
+        "qr": "1",
+        "ra": "0",
+        "rclass": "32769",
+        "rcode": "ok",
+        "rd": "0",
+        "rdata": "\"Fiona'sMacBookPro\\xf0\\x9f\\x8d\\xac._companion-link._tcp.local.\"",
+        "rdlen": "None",
+        "rrname": "\"Fiona'sMacBookPro\\xf0\\x9f\\x8d\\xac._companion-link._tcp.local.\"",
+        "tc": "0",
+        "ttl": "4500",
+        "type": "NSEC",
+        "typebitmaps": "['TXT','SRV']",
+        "z": "0"
+      },
+      "Ethernet": {
+        "dst": "33:33:00:00:00:fb",
+        "src": "88:66:5a:3c:83:34",
+        "type": "IPv6"
+      },
+      "IPv6": {
+        "dst": "ff02::fb",
+        "fl": "264448",
+        "hlim": "255",
+        "nh": "UDP",
+        "plen": "344",
+        "src": "fe80::146c:e767:2cd4:d915",
+        "tc": "0",
+        "version": "6"
+      },
+      "UDP": {
+        "chksum": "0xfd0c",
+        "dport": "5353",
+        "len": "344",
+        "sport": "5353"
+      },
+      "cap_time": "1680171365.801729",
+      "dst": "ff02::fb:5353",
+      "protocol": "Ether / IPv6 / UDP / DNS",
+      "src": "fe80::146c:e767:2cd4:d915:5353",
+      "summary": "Ether / IPv6 / UDP / DNS Ans \"[b'model=MacBookPro16,2', b'osxvers=21', b'ecolor=157,157,160']\" "
+    },
+    {
+      "ARP": {
+        "hwdst": "00:00:00:00:00:00",
+        "hwlen": "6",
+        "hwsrc": "f2:b8:70:52:33:0f",
+        "hwtype": "0x1",
+        "op": "who-has",
+        "pdst": "10.202.55.25",
+        "plen": "4",
+        "psrc": "10.202.55.221",
+        "ptype": "IPv4"
+      },
+      "Ethernet": {
+        "dst": "ff:ff:ff:ff:ff:ff",
+        "src": "f2:b8:70:52:33:0f",
+        "type": "ARP"
+      },
+      "Padding": {
+        "load": "'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'"
+      },
+      "cap_time": "1680171365.801730",
+      "dst": "ff:ff:ff:ff:ff:ff",
+      "protocol": "Ether / ARP / Padding",
+      "src": "f2:b8:70:52:33:0f",
+      "summary": "Ether / ARP who has 10.202.55.25 says 10.202.55.221 / Padding"
+    },
+    {
+      "Ethernet": {
+        "dst": "33:33:00:00:00:16",
+        "src": "50:1f:c6:c6:2e:04",
+        "type": "IPv6"
+      },
+      "IPv6": {
+        "dst": "ff02::16",
+        "fl": "0",
+        "hlim": "1",
+        "nh": "Hop-by-HopOptionHeader",
+        "plen": "36",
+        "src": "fe80::4fc:d403:2370:b15a",
+        "tc": "0",
+        "version": "6"
+      },
+      "IPv6ExtensionHeaderHopbyHopOptionsHeader": {
+        "autopad": "On",
+        "len": "0",
+        "nh": "ICMPv6",
+        "optdata": "''",
+        "optlen": "2",
+        "otype": "RouterAlert[00:skip,0:Don'tchangeen-route]",
+        "value": "DatagramcontainsaMLDmessage"
+      },
+      "MLDv2MulticastListenerReport": {
+        "auxdata": "''",
+        "auxdata_len": "0",
+        "cksum": "0xc145",
+        "dst": "ff02::fb",
+        "records_number": "1",
+        "res": "0",
+        "reserved": "0",
+        "rtype": "4",
+        "sources": "[]",
+        "sources_number": "0",
+        "type": "MLDReportVersion2"
+      },
+      "cap_time": "1680171365.802289",
+      "dst": "ff02::16",
+      "protocol": "Ether / fe80::4fc:d403:2370:b15a / IPv6ExtHdrHopByHop / ICMPv6MLReport2",
+      "src": "fe80::4fc:d403:2370:b15a",
+      "summary": "Ether / fe80::4fc:d403:2370:b15a > ff02::16 (0) / IPv6ExtHdrHopByHop / ICMPv6MLReport2"
+    },
+    {
+      "DNS": {
+        "aa": "1",
+        "ad": "0",
+        "ancount": "2",
+        "arcount": "8",
+        "cd": "0",
+        "extrcode": "0",
+        "id": "0",
+        "nextname": "'daliguzhandoujinhua.local.'",
+        "ns": "None",
+        "nscount": "0",
+        "opcode": "QUERY",
+        "optcode": "Reserved",
+        "optdata": "'\\x00&nyu\"vm\\xde\\xbeL\\xfb\\xf0e'",
+        "optlen": "14",
+        "port": "49167",
+        "priority": "0",
+        "qd": "None",
+        "qdcount": "0",
+        "qr": "1",
+        "ra": "0",
+        "rclass": "1440",
+        "rcode": "ok",
+        "rd": "0",
+        "rdata": "10.202.51.124",
+        "rdlen": "None",
+        "rrname": "'.'",
+        "target": "'daliguzhandoujinhua.local.'",
+        "tc": "0",
+        "ttl": "120",
+        "type": "OPT",
+        "typebitmaps": "['A','AAAA']",
+        "version": "0",
+        "weight": "0",
+        "z": "4500"
+      },
+      "Ethernet": {
+        "dst": "01:00:5e:00:00:fb",
+        "src": "de:be:4c:fb:f0:65",
+        "type": "IPv4"
+      },
+      "IP": {
+        "chksum": "0xe853",
+        "dst": "224.0.0.251",
+        "flags": "",
+        "frag": "0",
+        "id": "45767",
+        "ihl": "5",
+        "len": "400",
+        "proto": "udp",
+        "src": "10.202.51.124",
+        "tos": "0x0",
+        "ttl": "255",
+        "version": "4"
+      },
+      "UDP": {
+        "chksum": "0xf225",
+        "dport": "5353",
+        "len": "380",
+        "sport": "5353"
+      },
+      "cap_time": "1680171365.803038",
+      "dst": "224.0.0.251:5353",
+      "protocol": "Ether / IP / UDP / DNS",
+      "src": "10.202.51.124:5353",
+      "summary": "Ether / IP / UDP / DNS Ans \"[b'model=J181AP']\" "
+    },
+    {
+      "DNS": {
+        "aa": "1",
+        "ad": "0",
+        "ancount": "2",
+        "arcount": "8",
+        "cd": "0",
+        "extrcode": "0",
+        "id": "0",
+        "nextname": "'daliguzhandoujinhua.local.'",
+        "ns": "None",
+        "nscount": "0",
+        "opcode": "QUERY",
+        "optcode": "Reserved",
+        "optdata": "'\\x00&nyu\"vm\\xde\\xbeL\\xfb\\xf0e'",
+        "optlen": "14",
+        "port": "49167",
+        "priority": "0",
+        "qd": "None",
+        "qdcount": "0",
+        "qr": "1",
+        "ra": "0",
+        "rclass": "1440",
+        "rcode": "ok",
+        "rd": "0",
+        "rdata": "10.202.51.124",
+        "rdlen": "None",
+        "rrname": "'.'",
+        "target": "'daliguzhandoujinhua.local.'",
+        "tc": "0",
+        "ttl": "120",
+        "type": "OPT",
+        "typebitmaps": "['A','AAAA']",
+        "version": "0",
+        "weight": "0",
+        "z": "4500"
+      },
+      "Ethernet": {
+        "dst": "33:33:00:00:00:fb",
+        "src": "de:be:4c:fb:f0:65",
+        "type": "IPv6"
+      },
+      "IPv6": {
+        "dst": "ff02::fb",
+        "fl": "920832",
+        "hlim": "255",
+        "nh": "UDP",
+        "plen": "380",
+        "src": "fe80::6a:4fbe:843:5f37",
+        "tc": "0",
+        "version": "6"
+      },
+      "UDP": {
+        "chksum": "0x5b46",
+        "dport": "5353",
+        "len": "380",
+        "sport": "5353"
+      },
+      "cap_time": "1680171365.803801",
+      "dst": "ff02::fb:5353",
+      "protocol": "Ether / IPv6 / UDP / DNS",
+      "src": "fe80::6a:4fbe:843:5f37:5353",
+      "summary": "Ether / IPv6 / UDP / DNS Ans \"[b'model=J181AP']\" "
+    },
+    {
+      "DHCP6ClientIdentifierOption": {
+        "hwtype": "Ethernet(10Mb)",
+        "lladdr": "6e:51:6d:a1:1c:7b",
+        "optcode": "CLIENTID",
+        "optlen": "10",
+        "type": "Link-layerAddress"
+      },
+      "DHCP6ElapsedTimeOption": {
+        "elapsedtime": "2.84sec",
+        "optcode": "ELAPSED_TIME",
+        "optlen": "2"
+      },
+      "DHCP6IdentityAssociationforNontemporaryAddressesOption": {
+        "T1": "0",
+        "T2": "0",
+        "iaid": "0x0",
+        "optcode": "IA_NA",
+        "optlen": "12"
+      },
+      "DHCP6OptionRequestOption": {
+        "optcode": "ORO",
+        "optlen": "6",
+        "reqopts": "[DNSRecursiveNameServerOption,DomainSearchListoption,103]"
+      },
+      "DHCPv6SolicitMessage": {
+        "msgtype": "SOLICIT",
+        "trid": "0xfe27fd"
+      },
+      "Ethernet": {
+        "dst": "33:33:00:01:00:02",
+        "src": "6e:51:6d:a1:1c:7b",
+        "type": "IPv6"
+      },
+      "IPv6": {
+        "dst": "ff02::1:2",
+        "fl": "461056",
+        "hlim": "1",
+        "nh": "UDP",
+        "plen": "58",
+        "src": "fe80::1c09:dd0e:313f:d7f5",
+        "tc": "0",
+        "version": "6"
+      },
+      "UDP": {
+        "chksum": "0xd712",
+        "dport": "dhcpv6_server",
+        "len": "58",
+        "sport": "dhcpv6_client"
+      },
+      "cap_time": "1680171365.804131",
+      "dst": "ff02::1:2:547",
+      "protocol": "Ether / IPv6 / UDP / DHCP6_Solicit / DHCP6OptClientId / DHCP6OptOptReq / DHCP6OptElapsedTime / DHCP6OptIA_NA",
+      "src": "fe80::1c09:dd0e:313f:d7f5:546",
+      "summary": "Ether / IPv6 / UDP fe80::1c09:dd0e:313f:d7f5:dhcpv6_client > ff02::1:2:dhcpv6_server / DHCP6_Solicit / DHCP6OptClientId / DHCP6OptOptReq / DHCP6OptElapsedTime / DHCP6OptIA_NA"
+    },
+    {
+      "ARP": {
+        "hwdst": "00:00:00:00:00:00",
+        "hwlen": "6",
+        "hwsrc": "2c:a0:42:f8:51:6e",
+        "hwtype": "0x1",
+        "op": "who-has",
+        "pdst": "10.202.63.254",
+        "plen": "4",
+        "psrc": "10.202.41.207",
+        "ptype": "IPv4"
+      },
+      "Ethernet": {
+        "dst": "ff:ff:ff:ff:ff:ff",
+        "src": "2c:a0:42:f8:51:6e",
+        "type": "ARP"
+      },
+      "cap_time": "1680171365.804131",
+      "dst": "ff:ff:ff:ff:ff:ff",
+      "protocol": "Ether / ARP",
+      "src": "2c:a0:42:f8:51:6e",
+      "summary": "Ether / ARP who has 10.202.63.254 says 10.202.41.207"
+    },
+    {
+      "DNS": {
+        "aa": "1",
+        "ad": "0",
+        "ancount": "2",
+        "ar": "None",
+        "arcount": "0",
+        "cd": "0",
+        "id": "0",
+        "ns": "None",
+        "nscount": "0",
+        "opcode": "QUERY",
+        "qd": "None",
+        "qdcount": "0",
+        "qr": "1",
+        "ra": "0",
+        "rclass": "IN",
+        "rcode": "ok",
+        "rd": "0",
+        "rdata": "'ZzzsHuqiaAo\\xe7\\x9a\\x84iPad._companion-link._tcp.local.'",
+        "rdlen": "None",
+        "rrname": "'_companion-link._tcp.local.'",
+        "tc": "0",
+        "ttl": "4500",
+        "type": "PTR",
+        "z": "0"
+      },
+      "Ethernet": {
+        "dst": "01:00:5e:00:00:fb",
+        "src": "4e:be:52:2d:8a:94",
+        "type": "IPv4"
+      },
+      "IP": {
+        "chksum": "0x1c78",
+        "dst": "224.0.0.251",
+        "flags": "",
+        "frag": "0",
+        "id": "30958",
+        "ihl": "5",
+        "len": "156",
+        "proto": "udp",
+        "src": "10.202.58.37",
+        "tos": "0x0",
+        "ttl": "255",
+        "version": "4"
+      },
+      "UDP": {
+        "chksum": "0xef67",
+        "dport": "5353",
+        "len": "136",
+        "sport": "5353"
+      },
+      "cap_time": "1680171365.804780",
+      "dst": "224.0.0.251:5353",
+      "protocol": "Ether / IP / UDP / DNS",
+      "src": "10.202.58.37:5353",
+      "summary": "Ether / IP / UDP / DNS Ans \"[b'model=J417AP']\" "
+    },
+    {
+      "DNS": {
+        "aa": "1",
+        "ad": "0",
+        "ancount": "2",
+        "ar": "None",
+        "arcount": "0",
+        "cd": "0",
+        "id": "0",
+        "ns": "None",
+        "nscount": "0",
+        "opcode": "QUERY",
+        "qd": "None",
+        "qdcount": "0",
+        "qr": "1",
+        "ra": "0",
+        "rclass": "IN",
+        "rcode": "ok",
+        "rd": "0",
+        "rdata": "'ZzzsHuqiaAo\\xe7\\x9a\\x84iPad._companion-link._tcp.local.'",
+        "rdlen": "None",
+        "rrname": "'_companion-link._tcp.local.'",
+        "tc": "0",
+        "ttl": "4500",
+        "type": "PTR",
+        "z": "0"
+      },
+      "Ethernet": {
+        "dst": "33:33:00:00:00:fb",
+        "src": "4e:be:52:2d:8a:94",
+        "type": "IPv6"
+      },
+      "IPv6": {
+        "dst": "ff02::fb",
+        "fl": "134656",
+        "hlim": "255",
+        "nh": "UDP",
+        "plen": "136",
+        "src": "fe80::4d1:6873:8e2f:e9f2",
+        "tc": "0",
+        "version": "6"
+      },
+      "UDP": {
+        "chksum": "0x316d",
+        "dport": "5353",
+        "len": "136",
+        "sport": "5353"
+      },
+      "cap_time": "1680171365.805236",
+      "dst": "ff02::fb:5353",
+      "protocol": "Ether / IPv6 / UDP / DNS",
+      "src": "fe80::4d1:6873:8e2f:e9f2:5353",
+      "summary": "Ether / IPv6 / UDP / DNS Ans \"[b'model=J417AP']\" "
+    },
+    {
+      "Ethernet": {
+        "dst": "33:33:ff:cc:2e:a0",
+        "src": "12:ef:75:00:85:cc",
+        "type": "IPv6"
+      },
+      "ICMPv6NeighborDiscoveryNeighborSolicitation": {
+        "cksum": "0x7d8c",
+        "code": "0",
+        "res": "0",
+        "tgt": "fe80::7625:8aff:fecc:2ea0",
+        "type": "NeighborSolicitation"
+      },
+      "ICMPv6NeighborDiscoveryOptionSourceLinkLayerAddress": {
+        "len": "1",
+        "lladdr": "12:ef:75:00:85:cc",
+        "type": "1"
+      },
+      "IPv6": {
+        "dst": "ff02::1:ffcc:2ea0",
+        "fl": "0",
+        "hlim": "255",
+        "nh": "ICMPv6",
+        "plen": "32",
+        "src": "2400:dd01:103a:4032:7c68:c7ee:7be9:8028",
+        "tc": "0",
+        "version": "6"
+      },
+      "cap_time": "1680171365.805237",
+      "dst": "ff02::1:ffcc:2ea0",
+      "protocol": "Ether / IPv6 / ICMPv6ND_NS / ICMPv6",
+      "src": "2400:dd01:103a:4032:7c68:c7ee:7be9:8028",
+      "summary": "Ether / IPv6 / ICMPv6ND_NS / ICMPv6 Neighbor Discovery Option - Source Link-Layer Address 12:ef:75:00:85:cc"
+    },
+    {
+      "ARP": {
+        "hwdst": "00:00:00:00:00:00",
+        "hwlen": "6",
+        "hwsrc": "10:6f:d9:66:94:e9",
+        "hwtype": "0x1",
+        "op": "who-has",
+        "pdst": "10.202.191.254",
+        "plen": "4",
+        "psrc": "169.254.231.168",
+        "ptype": "IPv4"
+      },
+      "Ethernet": {
+        "dst": "ff:ff:ff:ff:ff:ff",
+        "src": "10:6f:d9:66:94:e9",
+        "type": "ARP"
+      },
+      "Padding": {
+        "load": "'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'"
+      },
+      "cap_time": "1680171365.805703",
+      "dst": "ff:ff:ff:ff:ff:ff",
+      "protocol": "Ether / ARP / Padding",
+      "src": "10:6f:d9:66:94:e9",
+      "summary": "Ether / ARP who has 10.202.191.254 says 169.254.231.168 / Padding"
+    },
+    {
+      "DNS": {
+        "aa": "1",
+        "ad": "0",
+        "ancount": "1",
+        "arcount": "2",
+        "cd": "0",
+        "extrcode": "0",
+        "id": "0",
+        "nextname": "'Guofengwu._companion-link._tcp.local.'",
+        "ns": "None",
+        "nscount": "0",
+        "opcode": "QUERY",
+        "optcode": "Reserved",
+        "optdata": "'\\x00\\xe56\\x96\\x9f\\xaeO\\x00\\xb219\\x9a*H'",
+        "optlen": "14",
+        "qd": "None",
+        "qdcount": "0",
+        "qr": "1",
+        "ra": "0",
+        "rclass": "1440",
+        "rcode": "ok",
+        "rd": "0",
+        "rdata": "[b'rpMac=0',b'rpHN=1a0ffcecc189',b'rpFl=0x30040',b'rpHA=7d9e1c14bb7c',b'rpVr=360.4',b'rpAD=862fa85fed19',b'rpHI=0e02e1b09053',b'rpBA=7A:C6:B3:09:C9:14']",
+        "rdlen": "None",
+        "rrname": "'.'",
+        "tc": "0",
+        "ttl": "4500",
+        "type": "OPT",
+        "typebitmaps": "['TXT','SRV']",
+        "version": "0",
+        "z": "4500"
+      },
+      "Ethernet": {
+        "dst": "01:00:5e:00:00:fb",
+        "src": "b2:31:39:9a:2a:48",
+        "type": "IPv4"
+      },
+      "IP": {
+        "chksum": "0x2ff5",
+        "dst": "224.0.0.251",
+        "flags": "",
+        "frag": "0",
+        "id": "27362",
+        "ihl": "5",
+        "len": "266",
+        "proto": "udp",
+        "src": "10.202.52.70",
+        "tos": "0x0",
+        "ttl": "255",
+        "version": "4"
+      },
+      "UDP": {
+        "chksum": "0xaa4c",
+        "dport": "5353",
+        "len": "246",
+        "sport": "5353"
+      },
+      "cap_time": "1680171365.806395",
+      "dst": "224.0.0.251:5353",
+      "protocol": "Ether / IP / UDP / DNS",
+      "src": "10.202.52.70:5353",
+      "summary": "Ether / IP / UDP / DNS Ans \"[b'rpMac=0', b'rpHN=1a0ffcecc189', b'rpFl=0x30040', b'rpHA=7d9e1c14bb7c', b'rpVr=360.4', b'rpAD=862fa85fed19', b'rpHI=0e02e1b09053', b'rpBA=7A:C6:B3:09:C9:14']\" "
+    }
+  ],
+  "result": "[o] this is the last update."
+}
