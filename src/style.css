@@ -1,9 +1,12 @@
-/* #app {
-  padding: 20px;
-} */
+@font-face {
+  font-family: "SarasaMono";
+  src: url("/src/assets/sarasa-mono-sc-light.ttf");
+}
 
 html,
 body,
 #app {
   height: 100%;
+  /* margin: 20px; */
+  font-family: "SarasaMono";
 }
