@@ -65,10 +65,13 @@
                         <a-switch type="round" v-model="useMock" :before-change="onSwitchUseMock" />
                     </a-space>
                     <a-space style="margin: 10px 10px 0 10px;" direction="vertical">
-                        <a-table :columns="myDataTableColumns" :data="myDataTableData" :bordered="{ cell: true }"
-                            :scrollbar="true" :virtual-list-props="{ height: 240 }" :pagination="false" size="mini"
-                            :row-selection="{ type: 'radio' }">
-                        </a-table>
+                        <div style="height: 240px; display: flex;">
+                            <a-table :columns="myDataTableColumns" :data="myDataTableData" :bordered="{ cell: true }"
+                                :scrollbar="true" :pagination="false" size="mini" sticky-header
+                                column-resizable stripe :row-selection="{ type: 'radio' }"
+                                @select="refreshDataTree">
+                            </a-table>
+                        </div>
                     </a-space>
                     <a-space style="margin: 10px 10px 10px 10px;" direction="vertical">
                         <!--            <a-button @click="toggleExpanded">-->
@@ -152,7 +155,16 @@ const myDataTableColumns = reactive([
 ])
 let myDataTableData = ref([])
 let packetInfoCache = ref([])
-let myDataTreeData = ref([])
+let myDataTreeData = ref([{
+    title: "titleLv1",
+    key: "counterLv1",
+    children: [
+        {
+            title: "titleLv2",
+            key: "counterLv1-counterLv2",
+        }
+    ]
+}])
 
 
 const onCollapse = () => {
@@ -229,7 +241,7 @@ const getUpdate = (updateInterval = 2000) => {
                 }
             })
         }, updateInterval)
-    }, 1000)
+    }, 200)
 
 }
 
@@ -245,6 +257,35 @@ const refreshDataTable = (incrementDataArray) => {
             summary: element.summary
         })
     })
+}
+
+const refreshDataTree = (rowKey) => {
+    myDataTreeData.value = []
+    // jsonObject = packetInfoCache.value[Number(rowKey)]
+
+    console.log(packetInfoCache.value[Number(rowKey)]);
+
+    let counterLv1 = 0
+    for (let titleLv1 in packetInfoCache.value[Number(rowKey)]) {
+        if (["cap_time", "src", "dst", "protocol", "summary", "Padding", "Raw"].includes(titleLv1)){
+            continue
+        }
+
+        myDataTreeData.value.push({
+            title: titleLv1,
+            key: counterLv1.toString(),
+            children: []
+        })
+        let counterLv2 = 0
+        for (let titleLv2 in packetInfoCache.value[Number(rowKey)][titleLv1]) {
+            myDataTreeData.value[counterLv1].children.push({
+                title: `${titleLv2}: ${packetInfoCache.value[Number(rowKey)][titleLv1][titleLv2]}`,
+                key: `${counterLv1}-${counterLv2}`
+            })
+            counterLv2 += 1
+        }
+        counterLv1 += 1
+    }
 }
 
 </script>
