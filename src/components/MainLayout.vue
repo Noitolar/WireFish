@@ -195,7 +195,7 @@ const onClickMenuItem = (key) => {
 }
 
 const onSwitchUseMock = () => {
-    Message.info({ content: `useMock：${useMock.value} -> ${!useMock.value}` });
+    // Message.info({ content: `useMock：${useMock.value} -> ${!useMock.value}` });
 }
 
 const onPacketDataTreeExpanded = () => {
