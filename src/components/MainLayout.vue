@@ -45,10 +45,8 @@
 
                     <a-space style="margin: 10px 10px 0 10px;">
                         <a-select :style="{ width: '400px' }" placeholder="网卡" allow-clear :scrollbar="true"
-                            v-model="networkInterface">
-                            <a-option>All</a-option>
-                            <a-option>Realtek RTL8852AE WiFi 6 802.11ax PCIe Adapter</a-option>
-                            <a-option>Realtek Gaming 2.5GbE Family Controller</a-option>
+                            v-model="networkInterface" @popup-visible-change="getInterfaces">
+                            <a-option v-for="(item, index) in interfaceList">{{ item }}</a-option>
                         </a-select>
                         <a-button @click="applyInterface">设置网卡</a-button>
                     </a-space>
@@ -174,6 +172,7 @@ const packetDataTableColumns = [
         tooltip: true,
     },
 ]
+let interfaceList = ref([])
 let packetDataTableData = ref([])
 let packetInfoCache = ref([])
 let packetDataTreeData = ref([])
@@ -205,6 +204,16 @@ const onPacketDataTreeExpanded = () => {
 
 const onSessionDataTreeExpanded = () => {
     sessionDataTreeExpandedKeys.value = sessionDataTreeExpandedKeys?.value.length ? [] : Object.keys(sessionDataTreeData.value)
+}
+
+const getInterfaces = () => {
+    axiosRequest({
+        url: `/${useMock.value ? "mock" : "api"}/get_interfaces`,
+        method: "get"
+    }).then((res) => {
+        Message.info(res.data.result)
+        interfaceList.value = res.data.data
+    })
 }
 
 const applyFilter = () => {
